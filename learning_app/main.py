@@ -12,6 +12,11 @@ from streamlit_carousel import carousel
 # # Create a new session for DB interaction
 # session = Session()
 
+
+__import__('pysqlite3')
+import sys
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
+
 if 'first_result' not in st.session_state:
     st.session_state.first_result = ""
 
