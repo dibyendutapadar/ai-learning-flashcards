@@ -47,7 +47,9 @@ Welcome to the **Personalized Learning App**! This Streamlit application is desi
    ```bash
    streamlit run main.py
 
-add your Groq API to .stremlit/secrets.toml file in the following format
+[^1]: Add your Groq API to .streamlit/secrets.toml file in the following format
     ```
     [groq]
     api_key = 'api_key'
+    ```
+    
