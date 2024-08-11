@@ -1,0 +1,6 @@
+.streamlit/
+learning_app/__pycache__
+learning_app/db_setup.py
+learning_app/temp.py
+venv/
+learning_app.db
